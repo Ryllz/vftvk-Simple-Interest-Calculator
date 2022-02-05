@@ -3,15 +3,31 @@ body {
     font-family:arial;
     color:white
 }
+
 h1 {
     color:grey;
-    font-family:verdana
+    font-family:verdana;
 }
+
+.column {
+    float:left;
+}
+
+.left {
+    width: 35%;
+    line-height: 1.35;
+}
+
+.right {
+    width: 65%;
+}
+
 .maindiv {
     background-color:white;
     color:black;
-    width:300px;
+    width:400px;
     padding:20px;
     border-radius:25px;
-    align:center;
+    margin-right:auto;
+    margin-left:auto;
 }
